@@ -1,6 +1,6 @@
 node{
     stage("Git CheckOut"){
-        git url: 'https://https://github.com/shekar55/SpringBoot-Rest1.git',branch: 'main'
+        git url: 'https://github.com/shekar55/SpringBoot-Rest1.git',branch: 'main'
     }
     
     stage(" Maven Clean Package"){
