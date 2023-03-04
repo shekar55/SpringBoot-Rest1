@@ -14,7 +14,7 @@ services:
     depends_on:
       - mongo
     networks:
-    - springappnetwork  
+    - springappnetwork1  
     deploy:  # This will be considered only in docker swarm.
       replicas: 2
       update_config:
